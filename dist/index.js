@@ -1,1 +1,1 @@
-(()=>{"use strict";gopeed.events.onResolve((function(e){var o=e.res.files[0].req.url;exec('yt-dlp "'.concat(o,'"'),(function(e,o,c){e?console.error("执行错误: ".concat(e.message)):c?console.error("标准错误: ".concat(c)):console.log("标准输出: ".concat(o))}))}))})();
+(()=>{"use strict";gopeed.events.onResolve((function(e){var o=e.res.files[0].req.url;gopeed.logger.debug(o)}))})();
