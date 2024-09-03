@@ -1,5 +1,5 @@
 gopeed.events.onResolve((ctx) => {
-  const url = ctx.res.files[0].req.url;
+  const url = ctx.req.url;
   gopeed.logger.debug(url);
   
 });

@@ -14,7 +14,13 @@
       "event": "onResolve",
       "match": {
         "urls": [
-          "*://www.youtube.com/*",
+          "*://youtube.com/watch/*",
+          "*://m.youtube.com/watch/*",
+          "*://www.youtube.com/watch/*",
+          "*://youtu.be/*",
+          "*://youtube.com/shorts/*",
+          "*://m.youtube.com/shorts/*",
+          "*://www.youtube.com/shorts/*",
           "*://vimeo.com/*",
           "*://twitter.com/*",
           "*://www.dailymotion.com/*",
