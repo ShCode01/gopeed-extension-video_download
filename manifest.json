@@ -1,0 +1,34 @@
+{
+  "name": "解析网站视频",
+  "author": "山海云端网络安全",
+  "title": "山海云端解析视频",
+  "description": "通过yt-dlp来解析网站视频",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "homepage": "",
+  "repository": {
+    "url": ""
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://www.youtube.com/*",
+          "*://vimeo.com/*",
+          "*://twitter.com/*",
+          "*://www.dailymotion.com/*",
+          "*://www.twitch.tv/*",
+          "*://www.instagram.com/*",
+          "*://www.bilibili.com/*",
+          "*://v.qq.com/*",
+          "*://www.youku.com/*",
+          "*://www.iqiyi.com/*",
+          "*://www.mgtv.com/*"
+        ]
+      },
+      "entry": "dist/index.js"
+    }
+  ],
+  "settings": []
+}
